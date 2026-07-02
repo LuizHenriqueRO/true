@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 
 export function Footer() {
   return (
@@ -8,11 +8,11 @@ export function Footer() {
           
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
-            <Link href="/" className="flex items-center gap-2 mb-6">
+            <a href="/" className="flex items-center gap-2 mb-6">
               <span className="text-2xl font-bold text-white tracking-tight">
                 Contemplada <span className="text-primary">Consórcios</span>
               </span>
-            </Link>
+            </a>
             <p className="text-gray-400 text-sm leading-relaxed">
               Consultoria estratégica e personalizada para viabilizar seus projetos de vida e investimentos com o melhor custo-benefício.
             </p>
@@ -23,24 +23,24 @@ export function Footer() {
             <h4 className="text-white font-bold mb-6 uppercase text-sm tracking-wider">Links Úteis</h4>
             <ul className="space-y-4">
               <li>
-                <Link href="#quem-somos" className="text-gray-400 hover:text-white transition-colors text-sm">
+                <a href="#quem-somos" className="text-gray-400 hover:text-white transition-colors text-sm">
                   Quem Somos
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="#diferenciais" className="text-gray-400 hover:text-white transition-colors text-sm">
+                <a href="#diferenciais" className="text-gray-400 hover:text-white transition-colors text-sm">
                   Diferenciais
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="#produtos" className="text-gray-400 hover:text-white transition-colors text-sm">
+                <a href="#produtos" className="text-gray-400 hover:text-white transition-colors text-sm">
                   Produtos
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="#parceiros" className="text-gray-400 hover:text-white transition-colors text-sm">
+                <a href="#parceiros" className="text-gray-400 hover:text-white transition-colors text-sm">
                   Parceiros
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

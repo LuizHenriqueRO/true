@@ -31,19 +31,19 @@ export function Hero() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up animation-delay-300">
-            <Link
+            <a
               href="#contato"
               className="inline-flex justify-center items-center gap-2 px-8 py-4 border border-transparent text-base font-bold rounded-lg text-white bg-primary hover:bg-red-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 w-full sm:w-auto"
             >
               Simule seu Projeto
               <ArrowRight className="w-5 h-5" />
-            </Link>
-            <Link
+            </a>
+            <a
               href="#quem-somos"
               className="inline-flex justify-center items-center px-8 py-4 border-2 border-gray-200 text-base font-bold rounded-lg text-gray-700 bg-white hover:bg-gray-50 hover:border-gray-300 transition-all duration-300 w-full sm:w-auto"
             >
               Conheça a True
-            </Link>
+            </a>
           </div>
         </div>
       </div>

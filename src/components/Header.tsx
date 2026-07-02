@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
@@ -23,30 +22,30 @@ export function Header() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <Link href="/" className="flex items-center gap-2">
+            <a href="/" className="flex items-center gap-2">
               <span className="text-2xl font-bold text-gray-900 tracking-tight">
                 Contemplada <span className="text-primary">Consórcios</span>
               </span>
-            </Link>
+            </a>
           </div>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
-              <Link
+              <a
                 key={link.name}
                 href={link.href}
                 className="text-sm font-medium text-gray-600 hover:text-primary transition-colors duration-200"
               >
                 {link.name}
-              </Link>
+              </a>
             ))}
-            <Link
+            <a
               href="#contato"
               className="inline-flex items-center justify-center px-6 py-2.5 border border-transparent text-sm font-semibold rounded-md text-white bg-primary hover:bg-red-700 shadow-md hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5"
             >
               Fale Conosco
-            </Link>
+            </a>
           </nav>
 
           {/* Mobile menu button */}
@@ -72,22 +71,22 @@ export function Header() {
         <div className="md:hidden bg-white border-b border-gray-100 shadow-lg">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navLinks.map((link) => (
-              <Link
+              <a
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsMenuOpen(false)}
                 className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50 transition-colors"
               >
                 {link.name}
-              </Link>
+              </a>
             ))}
-            <Link
+            <a
               href="#contato"
               onClick={() => setIsMenuOpen(false)}
               className="block w-full text-center mt-4 px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-red-700 transition-colors"
             >
               Fale Conosco
-            </Link>
+            </a>
           </div>
         </div>
       )}
