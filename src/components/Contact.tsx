@@ -105,9 +105,10 @@ export function Contact() {
                 <label htmlFor="objective" className="block text-sm font-medium text-gray-700 mb-1">Objetivo</label>
                 <select 
                   id="objective" 
+                  defaultValue=""
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all bg-white text-gray-700"
                 >
-                  <option value="" disabled selected>Selecione seu objetivo</option>
+                  <option value="" disabled>Selecione seu objetivo</option>
                   <option value="imovel">Imóvel (Compra, Construção, Reforma)</option>
                   <option value="veiculo">Veículo (Auto, Pesados)</option>
                   <option value="outros">Outros (Empresarial, Serviços, Agro)</option>
