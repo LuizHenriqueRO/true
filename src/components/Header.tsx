@@ -24,7 +24,7 @@ export function Header() {
           <div className="flex-shrink-0 flex items-center">
             <a href="/" className="flex items-center gap-2">
               <span className="text-2xl font-bold text-slate-900 tracking-tight">
-                Contemplada <span className="text-primary">Consórcios</span>
+                Contemplada <span className="text-sky-600">Consórcios</span>
               </span>
             </a>
           </div>
@@ -35,14 +35,14 @@ export function Header() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-sm font-medium text-slate-600 hover:text-primary transition-colors duration-200"
+                className="text-sm font-medium text-slate-600 hover:text-sky-600 transition-colors duration-200"
               >
                 {link.name}
               </a>
             ))}
             <a
               href="#contato"
-              className="inline-flex items-center justify-center px-6 py-2.5 border border-transparent text-sm font-semibold rounded-md text-white bg-primary hover:bg-orange-700 shadow-md hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5"
+              className="inline-flex items-center justify-center px-6 py-2.5 border border-transparent text-sm font-semibold rounded-md text-white bg-primary hover:bg-red-700 shadow-md hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5"
             >
               Fale Conosco
             </a>
@@ -75,7 +75,7 @@ export function Header() {
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsMenuOpen(false)}
-                className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-primary hover:bg-sky-50 transition-colors"
+                className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-sky-600 hover:bg-sky-50 transition-colors"
               >
                 {link.name}
               </a>
@@ -83,7 +83,7 @@ export function Header() {
             <a
               href="#contato"
               onClick={() => setIsMenuOpen(false)}
-              className="block w-full text-center mt-4 px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-orange-700 transition-colors"
+              className="block w-full text-center mt-4 px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-red-700 transition-colors"
             >
               Fale Conosco
             </a>

@@ -5,13 +5,13 @@ export function Philosophy() {
     <section className="py-20 bg-slate-900 text-white relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 pointer-events-none opacity-10">
-        <div className="absolute -top-40 -right-40 w-96 h-96 bg-primary rounded-full blur-3xl"></div>
-        <div className="absolute top-1/2 -left-40 w-96 h-96 bg-primary/50 rounded-full blur-3xl"></div>
+        <div className="absolute -top-40 -right-40 w-96 h-96 bg-sky-600 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 -left-40 w-96 h-96 bg-sky-600/50 rounded-full blur-3xl"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-primary font-semibold tracking-wider uppercase text-sm">DNA True</span>
+          <span className="text-sky-400 font-semibold tracking-wider uppercase text-sm">DNA True</span>
           <h2 className="mt-2 text-3xl font-extrabold sm:text-4xl text-white">
             Nossa Filosofia
           </h2>
@@ -20,9 +20,9 @@ export function Philosophy() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           
           {/* Visão */}
-          <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700 hover:border-primary/50 transition-colors duration-300">
+          <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700 hover:border-sky-500/50 transition-colors duration-300">
             <div className="w-12 h-12 bg-slate-700 rounded-lg flex items-center justify-center mb-6">
-              <Eye className="w-6 h-6 text-primary" />
+              <Eye className="w-6 h-6 text-sky-400" />
             </div>
             <h3 className="text-xl font-bold mb-4 text-white">Visão</h3>
             <p className="text-slate-300 leading-relaxed text-sm">
@@ -31,9 +31,9 @@ export function Philosophy() {
           </div>
 
           {/* Missão */}
-          <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700 hover:border-primary/50 transition-colors duration-300">
+          <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700 hover:border-sky-500/50 transition-colors duration-300">
             <div className="w-12 h-12 bg-slate-700 rounded-lg flex items-center justify-center mb-6">
-              <Flag className="w-6 h-6 text-primary" />
+              <Flag className="w-6 h-6 text-sky-400" />
             </div>
             <h3 className="text-xl font-bold mb-4 text-white">Missão</h3>
             <p className="text-slate-300 leading-relaxed text-sm">
@@ -42,26 +42,26 @@ export function Philosophy() {
           </div>
 
           {/* Valores */}
-          <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700 hover:border-primary/50 transition-colors duration-300">
+          <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700 hover:border-sky-500/50 transition-colors duration-300">
             <div className="w-12 h-12 bg-slate-700 rounded-lg flex items-center justify-center mb-6">
-              <Heart className="w-6 h-6 text-primary" />
+              <Heart className="w-6 h-6 text-sky-400" />
             </div>
             <h3 className="text-xl font-bold mb-4 text-white">Valores</h3>
             <ul className="text-slate-300 leading-relaxed text-sm space-y-3">
               <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
+                <span className="text-sky-400 mt-1">•</span>
                 <span>Confiamos em YAHWEH;</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
+                <span className="text-sky-400 mt-1">•</span>
                 <span>Acreditamos nas capacidades do ser humano;</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
+                <span className="text-sky-400 mt-1">•</span>
                 <span>Investimos nosso tempo e trabalho na construção de um mundo melhor;</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
+                <span className="text-sky-400 mt-1">•</span>
                 <span>Temos gratidão pelas pessoas.</span>
               </li>
             </ul>

@@ -10,7 +10,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-1">
             <a href="/" className="flex items-center gap-2 mb-6">
               <span className="text-2xl font-bold text-white tracking-tight">
-                Contemplada <span className="text-primary">Consórcios</span>
+                Contemplada <span className="text-sky-400">Consórcios</span>
               </span>
             </a>
             <p className="text-slate-400 text-sm leading-relaxed">

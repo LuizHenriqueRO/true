@@ -13,7 +13,7 @@ export function Partners() {
   return (
     <section id="parceiros" className="py-20 bg-sky-50 border-t border-b border-sky-100 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10 text-center">
-        <span className="text-primary font-semibold tracking-wider uppercase text-sm">Alianças Estratégicas</span>
+        <span className="text-sky-600 font-semibold tracking-wider uppercase text-sm">Alianças Estratégicas</span>
         <h2 className="mt-2 text-3xl font-extrabold text-slate-900">
           Parceiros de Confiança
         </h2>

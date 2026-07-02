@@ -23,7 +23,7 @@ export function Features() {
     <section id="diferenciais" className="py-20 bg-white border-t border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-primary font-semibold tracking-wider uppercase text-sm">Nossos Diferenciais</span>
+          <span className="text-sky-600 font-semibold tracking-wider uppercase text-sm">Nossos Diferenciais</span>
           <h2 className="mt-2 text-3xl font-extrabold text-slate-900 sm:text-4xl">
             Por que escolher a Contemplada?
           </h2>
@@ -38,8 +38,8 @@ export function Features() {
               key={index}
               className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 group hover:-translate-y-1"
             >
-              <div className="w-14 h-14 bg-sky-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/10 transition-colors duration-300">
-                <feature.icon className="w-7 h-7 text-slate-700 group-hover:text-primary transition-colors duration-300" />
+              <div className="w-14 h-14 bg-sky-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-sky-100 transition-colors duration-300">
+                <feature.icon className="w-7 h-7 text-slate-700 group-hover:text-sky-600 transition-colors duration-300" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">{feature.title}</h3>
               <p className="text-slate-600 leading-relaxed">
