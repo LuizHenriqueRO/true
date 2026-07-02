@@ -2,7 +2,7 @@
 
 export function Footer() {
   return (
-    <footer className="bg-gray-900 pt-16 pb-8 border-t border-gray-800">
+    <footer className="bg-slate-900 pt-16 pb-8 border-t border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           
@@ -13,7 +13,7 @@ export function Footer() {
                 Contemplada <span className="text-primary">Consórcios</span>
               </span>
             </a>
-            <p className="text-gray-400 text-sm leading-relaxed">
+            <p className="text-slate-400 text-sm leading-relaxed">
               Consultoria estratégica e personalizada para viabilizar seus projetos de vida e investimentos com o melhor custo-benefício.
             </p>
           </div>
@@ -23,22 +23,22 @@ export function Footer() {
             <h4 className="text-white font-bold mb-6 uppercase text-sm tracking-wider">Links Úteis</h4>
             <ul className="space-y-4">
               <li>
-                <a href="#quem-somos" className="text-gray-400 hover:text-white transition-colors text-sm">
+                <a href="#quem-somos" className="text-slate-400 hover:text-white transition-colors text-sm">
                   Quem Somos
                 </a>
               </li>
               <li>
-                <a href="#diferenciais" className="text-gray-400 hover:text-white transition-colors text-sm">
+                <a href="#diferenciais" className="text-slate-400 hover:text-white transition-colors text-sm">
                   Diferenciais
                 </a>
               </li>
               <li>
-                <a href="#produtos" className="text-gray-400 hover:text-white transition-colors text-sm">
+                <a href="#produtos" className="text-slate-400 hover:text-white transition-colors text-sm">
                   Produtos
                 </a>
               </li>
               <li>
-                <a href="#parceiros" className="text-gray-400 hover:text-white transition-colors text-sm">
+                <a href="#parceiros" className="text-slate-400 hover:text-white transition-colors text-sm">
                   Parceiros
                 </a>
               </li>
@@ -49,20 +49,20 @@ export function Footer() {
           <div>
             <h4 className="text-white font-bold mb-6 uppercase text-sm tracking-wider">Serviços</h4>
             <ul className="space-y-4">
-              <li className="text-gray-400 text-sm">Consórcio de Imóveis</li>
-              <li className="text-gray-400 text-sm">Consórcio de Automóveis</li>
-              <li className="text-gray-400 text-sm">Consórcio de Veículos Pesados</li>
-              <li className="text-gray-400 text-sm">Consórcio Empresarial</li>
-              <li className="text-gray-400 text-sm">Consultoria Financeira</li>
+              <li className="text-slate-400 text-sm">Consórcio de Imóveis</li>
+              <li className="text-slate-400 text-sm">Consórcio de Automóveis</li>
+              <li className="text-slate-400 text-sm">Consórcio de Veículos Pesados</li>
+              <li className="text-slate-400 text-sm">Consórcio Empresarial</li>
+              <li className="text-slate-400 text-sm">Consultoria Financeira</li>
             </ul>
           </div>
 
           {/* Grupo */}
           <div>
             <h4 className="text-white font-bold mb-6 uppercase text-sm tracking-wider">O Grupo</h4>
-            <div className="bg-gray-800 p-4 rounded-lg border border-gray-700">
-              <p className="text-gray-300 text-sm mb-2 font-semibold">Uma empresa do Grupo True</p>
-              <p className="text-gray-500 text-xs">
+            <div className="bg-slate-800 p-4 rounded-lg border border-slate-700">
+              <p className="text-slate-300 text-sm mb-2 font-semibold">Uma empresa do Grupo True</p>
+              <p className="text-slate-500 text-xs">
                 A Contemplada faz parte do Grupo True, que conta com empreendimentos diversificados e tradição em excelência.
               </p>
             </div>
@@ -70,11 +70,11 @@ export function Footer() {
           
         </div>
 
-        <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-500 text-sm text-center md:text-left">
+        <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-slate-500 text-sm text-center md:text-left">
             &copy; {new Date().getFullYear()} Contemplada Consórcios. Todos os direitos reservados.
           </p>
-          <div className="text-gray-500 text-sm">
+          <div className="text-slate-500 text-sm">
             Desenvolvido com excelência estratégica.
           </div>
         </div>

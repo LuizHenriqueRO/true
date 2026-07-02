@@ -4,18 +4,18 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1e293b;
   
-  --primary: #dc2626;
+  --primary: #ea580c;
   --primary-foreground: #ffffff;
   
-  --secondary: #f3f4f6;
-  --secondary-foreground: #171717;
+  --secondary: #f0f9ff;
+  --secondary-foreground: #1e293b;
   
-  --muted: #f3f4f6;
-  --muted-foreground: #6b7280;
+  --muted: #f8fafc;
+  --muted-foreground: #64748b;
   
-  --border: #e5e7eb;
+  --border: #e2e8f0;
 }
 
 @theme inline {
