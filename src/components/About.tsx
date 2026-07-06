@@ -1,4 +1,5 @@
 import { ShieldCheck, Target } from "lucide-react";
+import Image from "next/image";
 
 export function About() {
   return (
@@ -9,13 +10,13 @@ export function About() {
           {/* Left Column: Image/Visual representation */}
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-sky-50 relative shadow-xl">
-              <div className="absolute inset-0 bg-gradient-to-br from-sky-100 to-sky-50 flex items-center justify-center">
-                {/* We use a placeholder since we don't have images. It's clean and geometric */}
-                <div className="w-full h-full relative">
-                  <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-sky-200 rounded-full mix-blend-multiply filter blur-xl"></div>
-                  <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-sky-200/50 rounded-full mix-blend-multiply filter blur-xl"></div>
-                </div>
-              </div>
+              <Image
+                src="/quem-somos.png"
+                alt="Sobre a True Contemplada"
+                fill
+                unoptimized
+                className="object-cover"
+              />
               <div className="absolute inset-0 border-2 border-white/20 rounded-2xl"></div>
             </div>
             
