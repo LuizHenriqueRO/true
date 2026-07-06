@@ -41,7 +41,7 @@ export function About() {
                 Consultoria com visão estratégica e propósito.
               </h2>
               <p className="mt-4 text-lg text-slate-600 leading-relaxed">
-                A Contemplada nasceu da experiência prática e necessidade que tivemos de um atendimento de maior qualidade neste seguimento, com visão estratégica o Grupo True, que conta com empreendimentos diversificados... Nosso objetivo é oferecer consultoria personalizada em consórcios, conectando clientes às melhores oportunidades de crédito e investimento, sempre com transparência, segurança e propósito.
+                A True Contemplada nasceu da experiência prática e necessidade que tivemos de um atendimento de maior qualidade neste seguimento, com visão estratégica o Grupo True, que conta com empreendimentos diversificados... Nosso objetivo é oferecer consultoria personalizada em consórcios, conectando clientes às melhores oportunidades de crédito e investimento, sempre com transparência, segurança e propósito.
               </p>
             </div>
 
@@ -52,7 +52,7 @@ export function About() {
               </div>
               <div className="p-6 bg-sky-50 rounded-xl border border-sky-100 border-l-4 border-l-sky-500 shadow-sm">
                 <p className="text-slate-700 leading-relaxed">
-                  Na Contemplada, acompanhamos todo o processo de consórcio, desde a orientação inicial e educação financeira até a execução e finalização do projeto do cliente. Oferecemos consultoria personalizada, sugerindo as estratégias mais adequadas para cada objetivo.
+                  Na True Contemplada, acompanhamos todo o processo de consórcio, desde a orientação inicial e educação financeira até a execução e finalização do projeto do cliente. Oferecemos consultoria personalizada, sugerindo as estratégias mais adequadas para cada objetivo.
                 </p>
               </div>
             </div>

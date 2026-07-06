@@ -25,7 +25,7 @@ export function Features() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-sky-600 font-semibold tracking-wider uppercase text-sm">Nossos Diferenciais</span>
           <h2 className="mt-2 text-3xl font-extrabold text-slate-900 sm:text-4xl">
-            Por que escolher a Contemplada?
+            Por que escolher a True Contemplada?
           </h2>
           <p className="mt-4 text-lg text-slate-600">
             Muito além de uma venda, entregamos uma consultoria dedicada ao seu crescimento patrimonial sustentável.

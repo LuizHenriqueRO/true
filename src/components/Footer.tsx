@@ -13,14 +13,14 @@ export function Footer() {
               <div className="relative w-12 h-12 flex-shrink-0">
                 <Image 
                   src="/logo.png" 
-                  alt="Logo Contemplada" 
+                  alt="Logo True Contemplada" 
                   fill
                   unoptimized
                   className="object-contain"
                 />
               </div>
               <span className="text-2xl font-bold text-white tracking-tight">
-                Contemplada <span className="text-sky-400">Consórcios</span>
+                True Contemplada <span className="text-sky-400">Consórcios</span>
               </span>
             </a>
             <p className="text-slate-400 text-sm leading-relaxed">
@@ -73,7 +73,7 @@ export function Footer() {
             <div className="bg-slate-800 p-4 rounded-lg border border-slate-700">
               <p className="text-slate-300 text-sm mb-2 font-semibold">Uma empresa do Grupo True</p>
               <p className="text-slate-500 text-xs">
-                A Contemplada faz parte do Grupo True, que conta com empreendimentos diversificados e tradição em excelência.
+                A True Contemplada faz parte do Grupo True, que conta com empreendimentos diversificados e tradição em excelência.
               </p>
             </div>
           </div>
@@ -82,7 +82,7 @@ export function Footer() {
 
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 text-sm text-center md:text-left">
-            &copy; {new Date().getFullYear()} Contemplada Consórcios. Todos os direitos reservados.
+            &copy; {new Date().getFullYear()} True Contemplada Consórcios. Todos os direitos reservados.
           </p>
           <div className="text-slate-500 text-sm">
             Desenvolvido com excelência estratégica.

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Contemplada Consórcios | Alavancagem Financeira",
+  title: "True Contemplada Consórcios | Alavancagem Financeira",
   description: "Consultoria estratégica e personalizada para viabilizar seus projetos de vida e investimentos com o melhor custo-benefício, sem decisões impulsivas.",
 };
 

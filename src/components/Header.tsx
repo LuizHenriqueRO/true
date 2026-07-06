@@ -27,14 +27,14 @@ export function Header() {
               <div className="relative w-14 h-14 flex-shrink-0">
                 <Image
                   src="/logo.png"
-                  alt="Logo Contemplada"
+                  alt="Logo True Contemplada"
                   fill
                   unoptimized
                   className="object-contain"
                 />
               </div>
               <span className="text-2xl font-bold text-slate-900 tracking-tight hidden sm:block">
-                Contemplada <span className="text-sky-600">Consórcios</span>
+                True Contemplada <span className="text-sky-600">Consórcios</span>
               </span>
             </a>
           </div>
