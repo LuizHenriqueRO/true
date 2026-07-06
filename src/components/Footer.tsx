@@ -1,4 +1,5 @@
 
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -8,7 +9,15 @@ export function Footer() {
           
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
-            <a href="/" className="flex items-center gap-2 mb-6">
+            <a href="/" className="flex items-center gap-3 mb-6">
+              <div className="relative w-12 h-12 flex-shrink-0 rounded-full overflow-hidden border border-slate-700">
+                <Image 
+                  src="/logo.png" 
+                  alt="Logo Contemplada" 
+                  fill
+                  className="object-cover"
+                />
+              </div>
               <span className="text-2xl font-bold text-white tracking-tight">
                 Contemplada <span className="text-sky-400">Consórcios</span>
               </span>

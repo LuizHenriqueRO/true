@@ -2,6 +2,7 @@
 
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import Image from "next/image";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,8 +23,16 @@ export function Header() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <a href="/" className="flex items-center gap-2">
-              <span className="text-2xl font-bold text-slate-900 tracking-tight">
+            <a href="/" className="flex items-center gap-3">
+              <div className="relative w-14 h-14 flex-shrink-0 rounded-full overflow-hidden border border-slate-200">
+                <Image 
+                  src="/logo.png" 
+                  alt="Logo Contemplada" 
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <span className="text-2xl font-bold text-slate-900 tracking-tight hidden sm:block">
                 Contemplada <span className="text-sky-600">Consórcios</span>
               </span>
             </a>
