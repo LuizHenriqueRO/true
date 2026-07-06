@@ -24,12 +24,13 @@ export function Header() {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <a href="/" className="flex items-center gap-3">
-              <div className="relative w-14 h-14 flex-shrink-0 rounded-full overflow-hidden border border-slate-200">
-                <Image 
-                  src="/logo.png" 
-                  alt="Logo Contemplada" 
+              <div className="relative w-14 h-14 flex-shrink-0">
+                <Image
+                  src="/logo.png"
+                  alt="Logo Contemplada"
                   fill
-                  className="object-cover"
+                  unoptimized
+                  className="object-contain"
                 />
               </div>
               <span className="text-2xl font-bold text-slate-900 tracking-tight hidden sm:block">
