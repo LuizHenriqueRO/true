@@ -6,12 +6,12 @@ export function Contact() {
           
           {/* Contact Info */}
           <div>
-            <span className="text-sky-600 font-semibold tracking-wider uppercase text-sm">Fale Conosco</span>
+            <span className="text-sky-600 font-semibold tracking-wider uppercase text-sm">Simule Agora</span>
             <h2 className="mt-2 text-3xl font-extrabold text-slate-900 sm:text-4xl mb-6">
               Pronto para alavancar seu patrimônio?
             </h2>
             <p className="text-lg text-slate-600 mb-10">
-              Entre em contato conosco para uma consultoria estratégica e personalizada. Nossa equipe está pronta para te ajudar a tomar a melhor decisão financeira.
+              Faça uma simulação ou entre em contato conosco para uma consultoria estratégica e personalizada. Nossa equipe está pronta para te ajudar a tomar a melhor decisão financeira.
             </p>
 
             <div className="space-y-8">

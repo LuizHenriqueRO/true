@@ -14,12 +14,12 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <Hero />
+        <Contact />
         <About />
         <Features />
         <Philosophy />
         <Products />
         <Partners />
-        <Contact />
       </main>
       <Footer />
     </>
